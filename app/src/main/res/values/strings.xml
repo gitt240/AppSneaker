@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppSneaker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="dangky">Bạn chưa có tài khoản? <b>Đăng ký</b> ngay</string>
+    <string name="dangnhap">Bạn đã có tài khoản? <b>Đăng nhập</b> ngay</string>
+    <string name="des">Giày Nike, một biểu tượng trong thế giới thể thao và lifestyle, không chỉ mang lại trải nghiệm thoải mái và chất lượng vượt trội mà còn phản ánh sự đẳng cấp và phong cách. Với thiết kế độc đáo, công nghệ tiên tiến và sự chú ý đặc biệt đến chi tiết, giày Nike không chỉ là một sản phẩm mà còn là tuyên bố cá nhân.</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/mTrangChu"
+        android:title="Trang chủ"
+        android:icon="@drawable/home"
+        />
+
+    <item android:id="@+id/mSanPham"
+        android:title="Sản Phẩm"
+        android:icon="@drawable/sneaker"/>
+
+    <item android:id="@+id/mGioHang"
+        android:title="Giỏ hàng"
+        android:icon="@drawable/cart"/>
+
+    <item android:id="@+id/mKhac"
+        android:title="Khác"
+        android:icon="@drawable/menu"/>
+
+</menu>

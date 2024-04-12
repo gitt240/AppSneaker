@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppSneaker"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.CapNhatSanPhamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ThemSanPhamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DonHangChiTietActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DonHangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LienHeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.XacNhanDatHangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DoiPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SanPhamChiTietActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.SPTheoLoai"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CapNhatThongTinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ManHinhChaoActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.DangKyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DangNhapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan" />
+    </application>
+
+</manifest>

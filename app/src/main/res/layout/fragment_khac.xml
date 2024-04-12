@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.KhacFragment">
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ececec">
+        <ScrollView
+            android:id="@+id/scrollOther"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/top_background"
+                        android:scaleType="fitXY"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imgUser"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="16dp"
+                        android:src="@mipmap/user1"
+                        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.498"
+                        app:layout_constraintStart_toStartOf="@+id/imageView5"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+                        app:layout_constraintVertical_bias="0.548" />
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="@+id/imgUser"
+                        app:layout_constraintStart_toStartOf="@+id/imgUser"
+                        app:layout_constraintTop_toBottomOf="@+id/imgUser" />
+
+                    <TextView
+                        android:id="@+id/tvEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_marginTop="0dp"
+                        app:layout_constraintEnd_toEndOf="@+id/tvName"
+                        app:layout_constraintHorizontal_bias="0.495"
+                        app:layout_constraintStart_toStartOf="@+id/tvName"
+                        app:layout_constraintTop_toBottomOf="@+id/tvName" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="20dp"
+                        app:layout_constraintTop_toBottomOf="@id/tvEmail">
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnContact"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:text="Hỗ trợ khách hàng"
+                            android:textStyle="bold"
+                            android:textAlignment="viewStart"
+                            android:layout_marginVertical="10dp"
+                            android:layout_marginHorizontal="20dp"
+                            android:drawableStart="@drawable/baseline_phone_24"
+                            android:paddingStart="20dp"
+                            android:drawablePadding="20dp"
+                            android:background="@drawable/custom_button" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnOrderHistory"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:text="Lịch sử đặt hàng"
+                            android:textStyle="bold"
+                            android:textAlignment="viewStart"
+                            android:layout_marginVertical="10dp"
+                            android:layout_marginHorizontal="20dp"
+                            android:drawableStart="@drawable/ic_event_note"
+                            android:paddingStart="20dp"
+                            android:drawablePadding="20dp"
+                            android:background="@drawable/custom_button" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnInforUser"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:text="Thông tin tài khoản"
+                            android:textStyle="bold"
+                            android:textAlignment="viewStart"
+                            android:layout_marginVertical="10dp"
+                            android:layout_marginHorizontal="20dp"
+                            android:drawableStart="@drawable/baseline_person_24"
+                            android:paddingStart="20dp"
+                            android:drawablePadding="20dp"
+                            android:background="@drawable/custom_button" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnChangePass"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:text="Đổi mật khẩu"
+                            android:textStyle="bold"
+                            android:textAlignment="viewStart"
+                            android:layout_marginVertical="10dp"
+                            android:layout_marginHorizontal="20dp"
+                            android:drawableStart="@drawable/ic_vpn_key"
+                            android:paddingStart="20dp"
+                            android:drawablePadding="20dp"
+                            android:background="@drawable/custom_button" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnLogout"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:text="Đăng xuất"
+                            android:textStyle="bold"
+                            android:textAlignment="viewStart"
+                            android:layout_marginVertical="10dp"
+                            android:layout_marginHorizontal="20dp"
+                            android:drawableStart="@drawable/ic_logout"
+                            android:paddingStart="20dp"
+                            android:drawablePadding="20dp"
+                            android:background="@drawable/custom_button" />
+
+
+
+                    </LinearLayout>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</RelativeLayout>

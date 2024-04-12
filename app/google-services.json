@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "862975741814",
+    "project_id": "appsneaker-1a5f0",
+    "storage_bucket": "appsneaker-1a5f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862975741814:android:3e6bf3d5ed063b002b3457",
+        "android_client_info": {
+          "package_name": "com.example.appsneaker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzGnK9m2SfvmuHl5_wnqrQ3BMWeaXLJ94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

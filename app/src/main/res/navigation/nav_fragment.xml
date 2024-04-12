@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_fragment"
+    app:startDestination="@id/trangChuFragment">
+
+    <fragment
+        android:id="@+id/trangChuFragment"
+        android:name="com.example.appsneaker.fragment.TrangChuFragment"
+        android:label="fragment_trang_chu"
+        tools:layout="@layout/fragment_trang_chu" />
+    <fragment
+        android:id="@+id/sanPhamFragment"
+        android:name="com.example.appsneaker.fragment.SanPhamFragment"
+        android:label="fragment_san_pham"
+        tools:layout="@layout/fragment_san_pham" />
+    <fragment
+        android:id="@+id/gioHangragment"
+        android:name="com.example.appsneaker.fragment.GioHangragment"
+        android:label="fragment_gio_hangragment"
+        tools:layout="@layout/fragment_gio_hang" />
+    <fragment
+        android:id="@+id/khacFragment"
+        android:name="com.example.appsneaker.fragment.KhacFragment"
+        android:label="fragment_khac"
+        tools:layout="@layout/fragment_khac" />
+</navigation>
